@@ -1,7 +1,7 @@
 FROM python:3.7-slim
 # install the notebook package
 RUN pip install --no-cache --upgrade pip && \
-    pip install --no-cache jupiterlab
+    pip install --no-cache jupyterlab
 RUN pip install --no-cache -r requirements.txt
 RUN apt update && apt dist-upgrade && apt autoremove && \
     apt install `cat ./apt.txt`
