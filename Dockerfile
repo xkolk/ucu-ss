@@ -19,8 +19,8 @@ RUN chown -R ${NB_USER} ${HOME}
 
 WORKDIR ${HOME}
 RUN pip install --no-cache -r requirements.txt
-RUN apt update && apt dist-upgrade && apt autoremove && \
-    apt install `cat ./apt.txt`
+RUN apt update && apt dist-upgrade -y && apt autoremove -y && \
+    apt install -y `cat ./apt.txt`
 RUN chmod +x ./postBuild && \
     ./postBuild
 
