@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo setcap cap_net_raw+ep /usr/sbin/hping3
+setcap cap_net_raw+ep /usr/sbin/hping3
