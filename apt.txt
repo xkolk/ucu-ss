@@ -1,3 +1,4 @@
 build-essential
+python3-dev
 hping3
 libcap2-bin
