@@ -1,7 +1,7 @@
-numpy
-matplotlib
-scipy
+matplotlib==2.0.2
+numpy==1.13.1
+pandas==0.20.3
+pystan==2.16.0.0
+scipy==0.19.1
 statsmodels
-pystan
 arviz
-pandas
