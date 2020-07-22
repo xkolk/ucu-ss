@@ -1,0 +1,3 @@
+#!/bin/sh
+ulimit -v 1536
+exec "$@"
