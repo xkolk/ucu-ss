@@ -1,3 +1,3 @@
-#!/bin/sh
-ulimit -v 1536
+#!/bin/bash
+ulimit -v 1572864
 exec "$@"
